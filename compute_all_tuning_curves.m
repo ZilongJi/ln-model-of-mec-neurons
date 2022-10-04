@@ -2,7 +2,7 @@
 % This will compute the firing rate tuning curves for position, head
 % direction, running speed, and theta phase.
 
-% take out times when the animal ran >= 50 cm/s
+% take out times when the animal ran >= 50 cm/s (maybe due to some noise???)
 posx_c(too_fast) = []; posy_c(too_fast) = []; 
 direction(too_fast) = [];
 speed(too_fast) = [];
